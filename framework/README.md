@@ -1,21 +1,28 @@
-Yii 2.0 Public Preview
-======================
+Yii PHP Framework Version 2
+===========================
 
-Thank you for choosing Yii - a high-performance component-based PHP framework.
+This is the core framework code of [Yii 2](https://github.com/yiisoft/yii2#readme).
 
-If you are looking for a production-ready PHP framework, please use
-[Yii v1.1](https://github.com/yiisoft/yii).
+This repository is a git submodule of <https://github.com/yiisoft/yii2>.
+Please submit issue reports and pull requests to the main repository.
+For license information check the [LICENSE](LICENSE.md)-file.
 
-Yii 2.0 is still under heavy development. We may make significant changes
-without prior notices. **Yii 2.0 is not ready for production use yet.**
-
-[![Build Status](https://secure.travis-ci.org/yiisoft/yii2.png)](http://travis-ci.org/yiisoft/yii2)
-
-
-
-REQUIREMENTS
+Installation
 ------------
 
-The minimum requirement by Yii is that your Web server supports PHP 5.3.?.
+The preferred way to install the Yii framework is through [composer](http://getcomposer.org/download/).
 
+Either run
 
+```
+composer global require "fxp/composer-asset-plugin:~1.0.0"
+composer require yiisoft/yii2
+```
+
+or add
+
+```json
+"yiisoft/yii2": "~2.0.0",
+```
+
+to the require section of your composer.json.
